@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Portofolio | Beranda</title>
+    <style>
+        body {
+            /* Mengubah font ke Times New Roman */
+            font-family: 'Times New Roman', Times, serif;
+            background-image: url('cuking.jpeg');
+            background-size: cover;
+            background-position: center top;
+            background-attachment: scroll; 
+            margin: 0;
+            /* Warna teks utama disesuaikan agar kontras */
+            color: #333;
+        }
+
+        header { 
+            background-color: #FEFAE0; /* Cream dari palet */
+            color: #660708; /* Maroon gelap untuk teks agar terbaca di background cream */
+            text-align: center; 
+            padding: 20px; 
+        }
+
+        nav {
+            background-color: #BC4749; /* Merah dari palet */
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            width: 90%;
+            margin: 20px auto;
+            background-color: rgba(255, 255, 255, 0.85);
+            padding: 20px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        /* GRID UTAMA */
+        .content-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 20px;
+        }
+
+        /* TEKS KIRI */
+        .content-text h2 {
+            /* Mengubah warna heading menjadi Maroon agar sesuai palet */
+            color: #660708; 
+            border-bottom: 2px solid #BC4749;
+            padding-bottom: 5px;
+        }
+
+        .content-text p {
+            text-align: justify;
+            line-height: 1.6;
+        }
+
+        /* GRID GAMBAR KANAN */
+        .content-gallery {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 300px 300px;
+            gap: 10px; /* Memberi sedikit celah agar lebih rapi */
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        .content-gallery img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #660708; /* Maroon gelap dari palet */
+            color: #FEFAE0; /* Teks cream agar kontras */
+            text-align: center; 
+            padding: 15px; 
+            margin-top: 20px; 
+        }
+
+        /* RESPONSIVE (HP) */
+        @media (max-width: 768px) {
+            .content-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>PORTOFOLIO FAHIRA ZALFA</h1>
+    <p>Karya Nyata dari Proses Belajar</p>
+</header>
+
+<nav>
+    <a href="index.html">Beranda</a>
+    <a href="profil.html">Profil</a>
+    <a href="video.html">Video</a>
+    <a href="project.html">My Project</a>
+</nav>
+
+<div class="container">
+
+    <div class="content-grid">
+
+        <div class="content-text">
+
+            <h2>Selamat Datang di Website Portofolio</h2>
+            <p>
+                Website ini merupakan media pendukung untuk menampilkan hasil
+                Ujian Praktik Terintegrasi. Konten utama pada website ini adalah
+                video broadcasting pembelajaran yang berisi penyampaian teks
+                argumentasi secara lisan.
+            </p>
+
+            <h2>Tentang Website Ini</h2>
+            <p>
+                Website ini merupakan website portofolio digital yang berisi
+                hasil karya dan pembelajaran saya selama mengikuti Ujian Praktik
+                Terintegrasi.
+            </p>
+
+            <h2>Tujuan Pembuatan Website</h2>
+            <p>
+                Tujuan pembuatan website ini adalah untuk menampilkan karya
+                yang telah saya buat serta melatih kemampuan saya dalam
+                membuat website sederhana menggunakan HTML.
+            </p>
+
+            <h2>Topik Argumentasi dan Alasan Pemilihan</h2>
+            <p>
+                Topik argumentasi yang saya angkat dalam video ini adalah "Peran Pembelajaran Berbasi Praktik melalui Internship Curriculum terhadap Kesiapan Siswa." Saat ini masih banyak sekolah yang lebih menekankan teori dibanding praktik sehingga keterampilan siswa baik soft skill maupun hard skill kurang terlatih. Melalui pengalaman mengikuti program IC, saya melihat secara langsung bahwa pembelajaran berbasis praktik dapat meningkatkan kesiapan, keterampilan, serta pemahaman siswa terhadap dunia kerja. Oleh karena itu, topik ini saya angkat untuk menunjukkan bahwa praktik langsung sangat penting dalam membekali siswa menghadapi tantangan di masa depan.
+            </p>
+
+            <h2>Harapan dari Video</h2>
+            <p>
+                Harapan dari video ini adalah agar penonton dapat lebih memahami pentingnya pembelajaran berbasis praktik dalam dunia pendidikan. Selain itu, saya berharap video ini mampu memberikan gambaran nyata mengenai manfaat program IC dalam meningkatkan keterampilan serta kesiapan siswa menghadapi dunia kerja. Melalui video ini, saya juga berharap siswa lain dapat lebih termotivasi untuk mengembangkan kemampuan diri, tidak hanya melalui pembelajaran teori, tetapi juga melalui pengalaman praktik secara langsung.
+            </p>
+
+            <h2>Refleksi, Kesan, dan Pesan</h2>
+            <p>
+                Selama mengikuti ujian praktik di kelas IX, banyak pengalaman dan pelajaran berharga yang dirasakan, terutama dalam menyusun dan mempresentasikan proyek yang melatih kerja sama tim, tanggung jawab, dan kemandirian. Kesan selama belajar di SMPIT Al Haraki sangat baik dengan suasana yang nyaman serta dukungan dan bimbingan dari para guru yang selalu sabar dan penuh perhatian. Terima kasih kepada seluruh guru atas ilmu dan pengalaman yang telah diberikan. Harapannya, semoga SMPIT Al Haraki terus berkembang dan memberikan pembelajaran yang semakin bermakna bagi para siswa.
+            </p>
+
+        </div>
+
+        <div class="content-gallery">
+            <img src="cute kitty for bad romance.jpeg" alt="Gambar Bebas 1">
+            <img src="https://i.pinimg.com/1200x/c6/74/d4/c674d42fe3848365fbe98b30797721a8.jpg" alt="Gambar Bebas 2">
+            <img src="https://i.pinimg.com/736x/49/de/c7/49dec7ca916612ca2de3b19f8cd5f109.jpg" alt="Gambar Bebas 3">
+            <img src="https://i.pinimg.com/736x/20/3e/df/203edffaac7c5969d0106460bb50cea6.jpg" alt="Gambar Bebas 4">
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+    <p>Ujian Praktik Terintegrasi | SMPIT Al Haraki | Fahira Zalfa @2026 </p>
+</footer>
+
+</body>
+</html>

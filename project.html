@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Portofolio | My Project</title>
+    <style>
+        body {
+            /* Mengubah font ke Times New Roman */
+            font-family: 'Times New Roman', Times, serif;
+            background-image: url('cuking.jpeg');
+            background-size: cover;
+            background-position: center top;
+            background-attachment: scroll; 
+            margin: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #FEFAE0; /* Cream */
+            color: #660708; /* Maroon */
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #BC4749; /* Merah */
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            width: 90%;
+            margin: 20px auto;
+            background-color: rgba(255, 255, 255, 0.85);
+            padding: 20px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        .container h2 {
+            /* Warna heading disesuaikan ke Maroon */
+            color: #660708;
+            text-align: center;
+        }
+
+        .container p {
+            text-align: center;
+            line-height: 1.6;
+        }
+
+        /* GRID PROJECT */
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        .project-card {
+            background-color: #f5f5f5;
+            border-radius: 15px;
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.3s;
+            border: 1px solid #ddd;
+        }
+
+        .project-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+
+        .project-card img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+        }
+
+        .project-card a {
+            display: block;
+            padding: 15px;
+            text-decoration: none;
+            font-weight: bold;
+            /* Warna link disesuaikan ke Maroon */
+            color: #660708;
+            background-color: #ffffff;
+            transition: 0.3s;
+        }
+
+        .project-card a:hover {
+            /* Hover menggunakan warna Merah palet */
+            background-color: #BC4749;
+            color: white;
+        }
+
+        footer {
+            background-color: #660708; /* Maroon */
+            color: #FEFAE0; /* Cream */
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>PORTOFOLIO FAHIRA ZALFA</h1>
+    <p>Karya Nyata dari Proses Belajar</p>
+</header>
+
+<nav>
+    <a href="index.html">Beranda</a>
+    <a href="profil.html">Profil</a>
+    <a href="video.html">Video</a>
+    <a href="project.html">My Project</a>
+</nav>
+
+<div class="container">
+
+    <h2>My Project</h2>
+    <p>
+        Halaman ini menampilkan kumpulan proyek yang pernah saya buat.
+        Klik judul proyek untuk melihat hasil karya saya.
+    </p>
+
+    <div class="project-grid">
+
+        <div class="project-card">
+            <img src="Screenshot 2026-05-04 15.55.32.png" alt="Project 1">
+            <a href="https://link-proyek-1.com" target="_blank">
+                Video Argumentasi
+            </a>
+        </div>
+
+        <div class="project-card">
+            <img src="Screenshot 2026-05-04 15.52.35.png" alt="Project 2">
+            <a href="file:///home/chronos/u-5e6cd60ae975121e47e013e05e42ca9b8c4879fe/MyFiles/Portofolio_Zalfa/index.html" target="_blank">
+                Website Portofolio
+            </a>
+        </div>
+
+        <div class="project-card">
+            <img src="Screenshot 2026-05-04 14.35.54.png" alt="Project 3">
+            <a href="https://scratch.mit.edu/projects/1117443154/fullscreen/" target="_blank">
+                Game Edukasi
+            </a>
+        </div>
+
+        <div class="project-card">
+            <img src="Screenshot 2026-05-04 15.58.07.png" alt="Project 4">
+            <a href="document_6177059730754640713.mp4" target="_blank">
+                Proyek Lainnya
+            </a>
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+    <p>Ujian Praktik Terintegrasi | SMPIT Al Haraki | Fahira Zalfa@2026</p>
+</footer>
+
+</body>
+</html>
